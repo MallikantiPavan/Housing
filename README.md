@@ -1,6 +1,6 @@
-<h1> 🚢 Titanic Survival Prediction</h1>
+<h1> Housing Pricing Prediction</h1>
 
-This project predicts whether a passenger survived the Titanic disaster or not using **Logistic Regression**.  
+This project predicts the pricing of the House based on features given using **Linear Regression**.  
 It is deployed with:  
 - **Frontend (Streamlit)** → https://house-pricingprediction.streamlit.app/ 
 - **Backend (FastAPI)** → https://housing-dh2c.onrender.com/
@@ -100,7 +100,7 @@ Get prediction on whether the passenger survived
 <h4>Deployed app: Streamlit cloud</h4>
 
 <h3>📊 Screenshots</h3>
-<p align="center"> <img src="./screenshots/backend.png" alt="FastAPI Docs" width="45%" /> <img src="./screenshots/frontend1.png" alt="Streamlit UI" width="45%" /> </p>
+<p align="center"> <img src="./screenshots/backend.png" alt="FastAPI Docs" width="45%" /> <img src="./screenshots/frontend.png" alt="Streamlit UI" width="45%" /> </p>
 🚀 Deployment
 
 Backend → Hosted on Render (uvicorn main:app --host 0.0.0.0 --port 8081)
