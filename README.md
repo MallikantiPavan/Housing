@@ -23,7 +23,7 @@ Housing_prediction/
 │   ├── main.py             # FastAPI app (API endpoints)
 │   ├── requirements.txt    # Dependencies for backend
 │   ├── start.sh            # Startup script
-│   ├── housing_model.pkl   # Trained Logistic Regression model
+│   ├── housing_model.pkl   # Trained Linear Regression model
 │   └── train.py            # Model training script
 ├── frontend/
     ├── index.py            # Streamlit app
