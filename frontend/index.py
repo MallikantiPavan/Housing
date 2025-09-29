@@ -39,7 +39,7 @@ if st.button("predict Price"):
         "CentralAir": CentralAir,
         "MSZoning": MSZoning
         }
-    url="http://127.0.0.1:8000/predict"
+    url="https://housing-dh2c.onrender.com//predict"
     response=requests.post(url,json=Data)
     if response.status_code==200:
         result=response.json()
